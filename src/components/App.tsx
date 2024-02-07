@@ -2,13 +2,14 @@ import '../App.css';
 import  {useState, FC, ChangeEventHandler} from 'react';
 import {FaGithub} from 'react-icons/fa6';
 import {useForm} from 'react-hook-form';
-import { useDebounce } from 'usehooks-ts'
+
 import {Search} from './Search';
 import {Users} from './Users';
 import {PaginatedItems} from './PaginatedItems';
 import {useGitHubData} from './useGitHubData';
 import { Loading } from './Loading';
 import { Input } from './Input';
+import { useDebounce } from '@uidotdev/usehooks';
 
 interface FormData {
     inputField: string;
