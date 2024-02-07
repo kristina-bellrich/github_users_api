@@ -144,3 +144,9 @@ img {
     padding: 8px;
     margin-top: 5px;
 }
+
+@media all and (max-width: 850px) {
+    .flex {
+    flex-direction: column;
+}
+}
