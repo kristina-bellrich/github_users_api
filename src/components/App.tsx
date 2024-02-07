@@ -1,8 +1,8 @@
 import '../App.css';
-import React, {useState, FC, ChangeEventHandler} from 'react';
+import  {useState, FC, ChangeEventHandler} from 'react';
 import {FaGithub} from 'react-icons/fa6';
 import {useForm} from 'react-hook-form';
-import {useDebounce} from 'usehooks-ts';
+import { useDebounce } from 'usehooks-ts'
 import {Search} from './Search';
 import {Users} from './Users';
 import {PaginatedItems} from './PaginatedItems';

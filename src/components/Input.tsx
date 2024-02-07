@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler, FC } from 'react';
+import { ChangeEventHandler, FC } from 'react';
 import {IoSearch} from 'react-icons/io5';
 
 interface SearchInputProps {
